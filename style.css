@@ -58,21 +58,6 @@
     border: 2px solid #ddd;
 }
 
-@media (max-width: 768px) {
-    .home_image_row {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-}
-
-@media (max-width: 480px) {
-    .home_image_row {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    }
-
-    .home_img {
-        max-width: 150px; /* Reduce image size for smaller screens */
-    }
-}
 .home_footer{
     background-color: #f8f9fa; /* Light background */
     margin-top: 1rem; /* Space from content above */
@@ -110,7 +95,7 @@
                          /*page 1 styling*/
 						 
 .page1{
-	background: url('images/bg3.jpg');
+	background: url('../bg3.jpg');
     background-size: cover;
     margin: 0;
     padding: 0;
